@@ -31,9 +31,10 @@ html, body{
     
 }
 
-img{
-
-}
+#play-pause-button{
+    font-size: 50px;
+    cursor: pointer;
+  }
 
 .mutsuki-container{
     z-index: 0;
@@ -66,9 +67,8 @@ img{
     color: white;
 }
 
-audio{
-    display: none;
-}
+
+
 @media only screen and (max-width: 1280px){
     .top-left{
         transform: translate(90px, 170px);
